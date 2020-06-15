@@ -1,0 +1,2 @@
+rootProject.name='Lelepedia'
+include ':app'
