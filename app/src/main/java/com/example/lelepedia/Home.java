@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.example.lelepedia.Valorant.MenuValorant;
+import com.example.lelepedia.Dota.MenuDota;
+import com.example.lelepedia.R6.MenuR6;
+
 public class Home extends AppCompatActivity {
 
 
@@ -24,7 +28,7 @@ public class Home extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,MenuDota.class);
+                Intent intent = new Intent(Home.this, MenuDota.class);
                 startActivity(intent);
 
             }
@@ -35,7 +39,7 @@ public class Home extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,MenuCs.class);
+                Intent intent = new Intent(Home.this, MenuValorant.class);
                 startActivity(intent);
 
             }
@@ -46,7 +50,7 @@ public class Home extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,MenuR6.class);
+                Intent intent = new Intent(Home.this, MenuR6.class);
                 startActivity(intent);
 
             }

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home">
+    tools:context=".Home"
+    android:background="#A5A5A5">
 
 
     <LinearLayout
@@ -20,7 +21,7 @@
             android:fontFamily="sans-serif-medium"
             android:text="E-sports Wiki yang dibuat dari komunitas dan untuk komunitas. inspired by liquipedia"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="30sp" />
     </LinearLayout>
 
@@ -30,11 +31,9 @@
         android:layout_width="110dp"
         android:layout_height="111dp"
         android:layout_below="@+id/layout1"
-        android:layout_alignParentStart="true"
 
-        android:layout_marginStart="46dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="65dp"
         android:background="@android:color/transparent"
         app:srcCompat="@drawable/logo_dota" />
 
@@ -43,13 +42,12 @@
         android:layout_width="121dp"
         android:layout_height="108dp"
         android:layout_below="@+id/layout1"
-        android:layout_marginStart="86dp"
-
-        android:layout_marginTop="63dp"
-        android:layout_marginRight="10dp"
-        android:layout_toEndOf="@+id/btn_dota"
+        android:scaleType="fitCenter"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="40dp"
         android:background="@android:color/transparent"
-        app:srcCompat="@drawable/logo_cs" />
+        app:srcCompat="@drawable/logo_valor" />
 
     <ImageButton
         android:id="@+id/btn_r6"
@@ -58,11 +56,8 @@
 
 
         android:layout_below="@+id/btn_dota"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="142dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="146dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
         android:background="@android:color/transparent"
         app:srcCompat="@drawable/logo_r6" />
 
@@ -77,10 +72,11 @@
         android:layout_marginEnd="103dp"
         android:layout_marginBottom="65dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Pilih Game Diatas"
+        android:text="Pilih Game"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
+
 
 
 </RelativeLayout>
