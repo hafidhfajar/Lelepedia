@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "177628244485",
+    "firebase_url": "https://lelepedia.firebaseio.com",
+    "project_id": "lelepedia",
+    "storage_bucket": "lelepedia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177628244485:android:5b7d884cc7842346be4a6c",
+        "android_client_info": {
+          "package_name": "com.example.lelepedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177628244485-85839qs3asdgt7q9ildnjj75mfl3srfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lelepedia",
+            "certificate_hash": "3189ff020dd3488224c384e37e7175e39817dd7a"
+          }
+        },
+        {
+          "client_id": "177628244485-97rda1q7e5rcc086era14an76bfckg9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS6SOQMawwNfc0SV0j7Xn6L-TLzDnkHfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177628244485-97rda1q7e5rcc086era14an76bfckg9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

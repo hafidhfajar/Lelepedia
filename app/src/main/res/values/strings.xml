@@ -4,4 +4,13 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <array name="team">
+        <item>Team SoloMid</item>
+        <item>100 Thieves</item>
+        <item>T1</item>
+        <item>G2 Esports</item>
+        <item>Cloud 9</item>
+        <item>Giants Gaming</item>
+    </array>
 </resources>
