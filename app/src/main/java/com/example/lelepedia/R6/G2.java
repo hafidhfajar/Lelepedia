@@ -34,7 +34,7 @@ public class G2 extends AppCompatActivity {
         adapter = new RecycleG2(this,list);
         recyclerView.setAdapter(adapter);
 
-        //Memilih semua antek2 G2
+        //Memilih semua antek2
         Query query = FirebaseDatabase.getInstance().getReference("rainbow6")
                 .orderByChild("playerTeam")
                 .equalTo("G2 Esports");

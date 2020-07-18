@@ -67,6 +67,9 @@ public class FragTambah extends Fragment {
 
             databasePlayer.child(playerId).setValue(player);
             Toast.makeText(getActivity(), "Player Baru Berhasil Ditambahkan", Toast.LENGTH_LONG).show();
+            TextNama.setText("");
+            TextNickname.setText("");
+            TextTanggal.setText("");
 
         } else {
             Toast.makeText(getActivity(), "Nama Harus Diisi", Toast.LENGTH_LONG).show();

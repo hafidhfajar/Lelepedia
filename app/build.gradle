@@ -21,13 +21,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    sourceSets {
-        main {
-            res {
-                srcDirs 'src/main/res', 'src/main/res/Layouts/Dota', 'src/main/res/Layouts/valorant', 'src/main/res/Layout/r6', 'src/main/res/Layouts/r6'
-            }
-        }
-    }
+
 
 }
 

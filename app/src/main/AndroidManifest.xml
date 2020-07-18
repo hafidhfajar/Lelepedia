@@ -9,11 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dota.MenuDota">
-        </activity>
+        <activity android:name=".Dota.MenuDota"/>
+        <activity android:name=".Dota.Navi"/>
+        <activity android:name=".Dota.Nigma"/>
+        <activity android:name=".Dota.Boom"/>
+        <activity android:name=".Dota.VP"/>
+        <activity android:name=".Dota.OG"/>
+        <activity android:name=".Dota.Secret"/>
         <activity android:name=".R6.MenuR6"/>
         <activity android:name=".R6.G2"/>
+        <activity android:name=".R6.BDS"/>
+        <activity android:name=".R6.Secret"/>
+        <activity android:name=".R6.TSM"/>
+        <activity android:name=".R6.Faze"/>
+        <activity android:name=".R6.Empire"/>
         <activity android:name=".Valorant.MenuValorant"/>
+        <activity android:name=".Valorant.T1"/>
+        <activity android:name=".Valorant.TSM"/>
+        <activity android:name=".Valorant.Thieves"/>
+        <activity android:name=".Valorant.Giants"/>
+        <activity android:name=".Valorant.G2"/>
+        <activity android:name=".Valorant.C9"/>
         <activity android:name=".Home" />
         <activity android:name=".SplashScreen">
             <intent-filter>
