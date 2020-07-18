@@ -1,4 +1,4 @@
-package com.example.lelepedia.Valorant;
+package com.example.lelepedia.R6;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -13,7 +13,6 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.lelepedia.Dota.Player;
 import com.example.lelepedia.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -33,9 +32,9 @@ public class FragTambah extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.tambah_valorant, container, false);
+        view = inflater.inflate(R.layout.tambah_r6, container, false);
 
-        databasePlayer = FirebaseDatabase.getInstance().getReference("valorant");
+        databasePlayer = FirebaseDatabase.getInstance().getReference("rainbow6");
 
         TextNama = view.findViewById(R.id.TextNama);
         TextNickname = view.findViewById(R.id.TextNickname);
@@ -64,7 +63,7 @@ public class FragTambah extends Fragment {
 
             String playerId = databasePlayer.push().getKey();
 
-            com.example.lelepedia.Dota.Player player = new Player(playerId, playerName, playerNickname, playerJoin, playerTeam);
+            Player player = new Player(playerId, playerName, playerNickname, playerJoin, playerTeam);
 
             databasePlayer.child(playerId).setValue(player);
             Toast.makeText(getActivity(), "Player Baru Berhasil Ditambahkan", Toast.LENGTH_LONG).show();

@@ -1,4 +1,4 @@
-package com.example.lelepedia.Valorant;
+package com.example.lelepedia.R6;
 
 public class Player {
 

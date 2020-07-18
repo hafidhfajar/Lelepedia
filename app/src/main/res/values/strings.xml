@@ -5,7 +5,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
-    <array name="team">
+    <array name="team_valorant">
         <item>Team SoloMid</item>
         <item>100 Thieves</item>
         <item>T1</item>
@@ -13,4 +13,39 @@
         <item>Cloud 9</item>
         <item>Giants Gaming</item>
     </array>
+
+    <array name="team_dota">
+        <item>Natus Vincere</item>
+        <item>Nigma</item>
+        <item>Team Secret</item>
+        <item>Virtus Pro</item>
+        <item>OG</item>
+        <item>Boom Esports</item>
+    </array>
+
+    <array name="team_r6">
+        <item>Team BDS</item>
+        <item>G2 Esports</item>
+        <item>eam Secret</item>
+        <item>Faze Clan</item>
+        <item>Team SoloMid</item>
+        <item>Team Empire</item>
+    </array>
+
+    <string name="bio_g2"><b>G2 Esports</b> (sebelumnya dikenal sebagai <i>Gamers2</i>) adalah organisasi olahraga profesional Spanyol yang dibuat oleh mantan pemain League of Legends <b>Carlos "ocelote" Rodríguez Santiago</b>. Markas Besar sekarang berlokasi di Berlin, Jerman.</string>
+    <string name="bio_navi"><b>Natus Vincere</b> (bahasa Latin: "<i>Lahir Untuk Menang</i>", sering disingkat Na'Vi atau NaVi) adalah organisasi olahraga profesional terkemuka dari Ukraina. </string>
+    <string name="bio_tsm"> <b>Team SoloMid</b> adalah organisasi esports Amerika, yang dibuat di situs komunitas SoloMid.Net oleh dua bersaudara <b>Andy "Reginald" Dinh</b> dan <b>Dan "Dan Dinh" Dinh</b> pada bulan September 2009.</string>
+    <string name="bio_bds"> </string>
+    <string name="bio_secret"> </string>
+    <string name="bio_faze"> </string>
+    <string name="bio_empire"> </string>
+    <string name="bio_nigma"> </string>
+    <string name="bio_vp"> </string>
+    <string name="bio_og"> </string>
+    <string name="bio_boom"> </string>
+    <string name="bio_100T"> </string>
+    <string name="bio_T1"> </string>
+    <string name="bio_c9"> </string>
+    <string name="bio_giants"> </string>
+    <string name="bio_t1"> </string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.lelepedia.Valorant;
+package com.example.lelepedia.Dota;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;

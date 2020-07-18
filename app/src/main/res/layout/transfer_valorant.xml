@@ -59,7 +59,7 @@
         android:layout_marginStart="67dp"
         android:layout_marginTop="10dp"
         android:layout_toEndOf="@+id/Text3"
-        android:entries="@array/team" />
+        android:entries="@array/team_valorant" />
 
     <TextView
         android:id="@+id/Text4"

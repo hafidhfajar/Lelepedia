@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dota.MenuDota"></activity>
-        <activity android:name=".R6.MenuR6" />
-        <activity android:name=".Valorant.MenuValorant" />
+        <activity android:name=".Dota.MenuDota">
+        </activity>
+        <activity android:name=".R6.MenuR6"/>
+        <activity android:name=".R6.G2"/>
+        <activity android:name=".Valorant.MenuValorant"/>
         <activity android:name=".Home" />
         <activity android:name=".SplashScreen">
             <intent-filter>
