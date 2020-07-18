@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33FFFFFF">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo_r6" />
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer Player"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@+id/imageView"/>
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Text1"
+
+        android:textColor="@color/white"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="8dp"
+        android:text="Nickname" />
+
+    <EditText
+        android:id="@+id/TextNickname"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@id/Text1"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/Text3"
+        android:ems="10"
+        android:hint="Nickname"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@+id/Text2"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="8dp"
+        android:text="Pindah Ke " />
+
+    <Spinner
+        android:id="@+id/Spinner"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextNickname"
+        android:textColor="@color/white"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/Text3"
+        android:entries="@array/team_dota" />
+
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@+id/Text3"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="8dp"
+        android:text="Tanggal Pindah" />
+
+    <EditText
+        android:id="@+id/TextTanggal"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Spinner"
+        android:layout_marginStart="35dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/Text4"
+        android:ems="10"
+        android:hint="DDMMYYYY"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="Transfer" />
+
+</RelativeLayout>
