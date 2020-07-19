@@ -28,6 +28,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Team SoloMid"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
 
@@ -56,6 +58,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="100 Thieves"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -83,6 +87,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="T1"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
 
@@ -112,6 +118,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="G2 Esports"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -138,6 +146,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Cloud 9"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
 
@@ -167,6 +177,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Giants Gaming"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
     </LinearLayout>
 </RelativeLayout>

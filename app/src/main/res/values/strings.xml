@@ -4,6 +4,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="menu">Wikipedia <i>E-sports</i> yang dibuat dari komunitas dan untuk komunitas.</string>
 
     <array name="team_valorant">
         <item>Team SoloMid</item>
@@ -32,18 +33,18 @@
         <item>Team Empire</item>
     </array>
 
-    <string name="bio_g2"><b>G2 Esports</b> (sebelumnya dikenal sebagai <i>Gamers2</i>) adalah organisasi Esports profesional Spanyol yang dibuat oleh mantan pemain League of Legends <b>Carlos "ocelote" Rodríguez Santiago</b>. Markas Besar sekarang berlokasi di Berlin, Jerman.</string>
-    <string name="bio_navi"><b>Natus Vincere</b> (bahasa Latin: "<i>Lahir Untuk Menang</i>", sering disingkat Na'Vi atau NaVi) adalah organisasi Esports profesional terkemuka dari Ukraina. </string>
-    <string name="bio_tsm"> <b>Team SoloMid</b> adalah organisasi Esports Amerika, yang dibuat di situs komunitas SoloMid.Net oleh dua bersaudara <b>Andy "Reginald" Dinh</b> dan <b>Dan "Dan Dinh" Dinh</b> pada bulan September 2009.</string>
-    <string name="bio_bds"><b>BDS Esport</b> adalah organisasi Esports dari Swiss yang didirikan oleh <b>Patrice "LaTour" Bailo De Spoelberch</b> untuk terjun kedalam Rainbow 6 Siege Esports Scene</string>
+    <string name="bio_g2"><b>G2 Esports</b> (sebelumnya dikenal sebagai <i>Gamers2</i>) adalah organisasi Esports profesional Spanyol yang dibuat oleh mantan pemain League of Legends <b>Carlos<i>ocelote</i>Rodríguez Santiago</b>. Markas Besar sekarang berlokasi di Berlin, Jerman.</string>
+    <string name="bio_navi"><b>Natus Vincere</b> (bahasa Latin: <i>Lahir Untuk Menang</i>, sering disingkat <b>NaVi</b>) adalah organisasi Esports profesional terkemuka dari Ukraina. </string>
+    <string name="bio_tsm"> <b>Team SoloMid</b> adalah organisasi Esports Amerika, yang dibuat di situs komunitas SoloMid.Net oleh dua bersaudara <b>Andy <i>Reginald</i> Dinh</b> dan <b>Dan <i>Dan Dinh</i> Dinh</b> pada bulan September 2009.</string>
+    <string name="bio_bds"><b>BDS Esport</b> adalah organisasi Esports dari Swiss yang didirikan oleh <b>Patrice <i>LaTour</i> Bailo De Spoelberch</b> untuk terjun kedalam Rainbow 6 Siege Esports Scene</string>
     <string name="bio_secret"><b>Team Secret</b> adalah organisasi esports Eropa, yang awalnya didirikan sebagai tim DotA 2 setelah <b>The International 2014.</b> </string>
     <string name="bio_faze"> <b>FaZe Clan</b> adalah Organisasi Esports yang berasal dari Amerika</string>
     <string name="bio_empire"> <b>Team Empire</b> adalah salah satu tim utama di Rusia dan CIS di semua gelar esport. Organisasi ini didirikan pada 2004 dengan kantor pusat di Moskow, Rusia.</string>
-    <string name="bio_nigma"> <b>Team Nigma</b> adalah organisasi esports Eropa yang didirikan oleh mantan anggota Team Liquid dan empat dari lima Juara <i>The International 2017</i>. Setelah menempati posisi ke-2 di <i>The International 2019</i>, kapten Kuro "KuroKy" Salehi Takhasomi mengumumkan keberangkatan tim dari <i>Team Liquid</i> dengan ide membentuk organisasi mereka sendiri.</string>
+    <string name="bio_nigma"> <b>Team Nigma</b> adalah organisasi esports Eropa yang didirikan oleh mantan anggota Team Liquid dan empat dari lima Juara <i>The International 2017</i>. Setelah menempati posisi ke-2 di <i>The International 2019</i>, kapten Kuro <i>KuroKy</i> Salehi Takhasomi mengumumkan keberangkatan tim dari <i>Team Liquid</i> dengan ide membentuk organisasi mereka sendiri.</string>
     <string name="bio_vp"> <b>Virtus.pro</b>, sering disingkat VP, adalah organisasi esports Rusia yang mapan, sebagian besar terkenal dengan tim mereka di <i>Counter-Strike: Global Offensive</i> dan <i>Dota 2</i>. Tim Dota 2-nya telah berpartisipasi dalam beberapa turnamen berskala besar, memenangkan rekor 5 di antaranya ( seri dengan Team Secret) dan menjadi tim terbaik Dota Pro Circuit musim pertama.</string>
     <string name="bio_og"> <b>OG</b> diciptakan sebagai tim baru mantan pemain <i>Monkey Bussiness</i>. Terobosan tim terjadi di <i>Frankfurt Major</i> pada akhir November 2015. Mereka berjuang melalui braket yang lebih rendah, mengalahkan juara TI5 <i>Evil Geniuses</i> dan runner-up <i>CDEC Gaming</i>. Dengan memenangkan Kiev Major 2017, OG menjadi <b>tim pertama dalam sejarah Dota 2</b> yang memenangkan empat Kejuaraan Dota Utama. Pada Agustus 2018, OG menjadi tim pertama yang memenangkan The International dari kualifikasi terbuka. Babak grand final dari acara tersebut adalah subjek dari episode 2018 "True Sight", menjadikan OG satu-satunya tim yang tampil dalam seri lebih dari satu kali. Pada bulan Agustus 2019, OG menjadi <b>tim pertama</b> yang memenangkan lebih dari satu TI dengan memenangkan TI9, juga menjadi pemenang TI back-to-back <b>pertama dalam sejarah Dota 2</b>.</string>
     <string name="bio_boom"><b>BOOM Esports</b>, sebelumnya dikenal sebagai <i>BOOM ID</i>, adalah organisasi esports yang didirikan pada November 2016. Pada 30 Januari 2017, organisasi memasuki kancah Dota 2. Pada 13 September 2019, ia mengubah namanya dari <i>BOOM ID</i> menjadi <i>BOOM Esports</i> </string>
-    <string name="bio_100T"><b>100 Thieves</b> adalah organisasi Amerika yang dibentuk oleh mantan pemain Call of Duty OpTic Gaming, <b>Matthew "Nadeshot" Haag</b> dan tim NBA Cleveland Cavaliers. </string>
+    <string name="bio_100T"><b>100 Thieves</b> adalah organisasi Amerika yang dibentuk oleh mantan pemain Call of Duty OpTic Gaming, <b>Matthew <i>Nadeshot</i> Haag</b> dan tim NBA Cleveland Cavaliers. </string>
     <string name="bio_T1"> <b>T1</b> adalah perusahaan patungan esports global yang diciptakan oleh <b>Comcast Spectacor</b> dan <b>SK Telecom</b></string>
     <string name="bio_c9"> <b>Cloud9</b> adalah organisasi esports Amerika Utara yang saat ini mengirim tim Counter-Strike: Afrika Selatan / Amerika Utara: Global Offensive. Mereka juga menampilkan pemain dan tim di Hearthstone, Counter-Strike, League of Legends, Super Smash Melee Bros, Fortnite, Rainbow Six: Siege, dan Rocket League.</string>
     <string name="bio_giants"><b>Giants Gaming</b> adalah organisasi esports yang berasal dari Spanyol. </string>

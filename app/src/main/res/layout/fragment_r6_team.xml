@@ -26,6 +26,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="BDS Esports"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -53,6 +55,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="G2 Esport"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -79,6 +83,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Faze Clan"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -107,6 +113,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Team Secret"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -133,6 +141,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Team Empire"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -161,6 +171,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Team SoloMid"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:textSize="20sp" />
     </LinearLayout>
 </RelativeLayout>

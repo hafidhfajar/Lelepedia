@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#33FFFFFF">
+    android:background="#80FFFFFF">
 
 
     <ImageView
@@ -11,7 +11,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/logo_dota" />
+        app:srcCompat="@drawable/transfer" />
 
     <TextView
         android:id="@+id/Text1"
