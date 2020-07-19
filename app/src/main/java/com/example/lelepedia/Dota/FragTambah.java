@@ -42,7 +42,6 @@ public class FragTambah extends Fragment {
         spinner = view.findViewById(R.id.Spinner);
         tambah = view.findViewById(R.id.button);
 
-
         tambah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

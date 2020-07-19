@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:177628244485:android:5b7d884cc7842346be4a6c",
         "android_client_info": {
-          "package_name": "com.example.lelepedia"
+          "package_name": "com.fidd.lelepedia"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "177628244485-85839qs3asdgt7q9ildnjj75mfl3srfg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.lelepedia",
+            "package_name": "com.fidd.lelepedia",
             "certificate_hash": "3189ff020dd3488224c384e37e7175e39817dd7a"
           }
         },

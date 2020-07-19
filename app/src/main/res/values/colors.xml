@@ -9,4 +9,9 @@
     <color name="dark_grey">#222222</color>
     <color name="grey">#333333</color>
     <color name="whitelow">#40FFFFFF</color>
+    <color name="blacklow">#40000000</color>
+    <color name="black">#000000</color>
+    <color name="whitehalf">#80FFFFFF</color>
+    <color name="blackhalf">#80000000</color>
+    <color name="silver">#c0c0c0</color>
 </resources>

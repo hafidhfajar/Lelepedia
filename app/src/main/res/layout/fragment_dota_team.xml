@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:text="Natus Vincere"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="NIGMA"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="20sp" />
 
@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Team Secret"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="20sp" />
 
@@ -112,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Virtus Pro"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="20sp" />
     </LinearLayout>
@@ -140,7 +140,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="OG"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="20sp" />
 
@@ -170,7 +170,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Boom Esport"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="20sp" />
     </LinearLayout>

@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text1"
         android:layout_centerHorizontal="true"
-        android:text="Captain : To Be Determined"
+        android:text="@string/capt_c9"
         android:textStyle="bold" />
 
     <TextView

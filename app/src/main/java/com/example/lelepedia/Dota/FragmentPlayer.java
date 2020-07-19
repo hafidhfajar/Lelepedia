@@ -29,6 +29,7 @@ public class FragmentPlayer extends Fragment {
     View view;
     ArrayList<Player> list;
     RecycleAdapter adapter;
+
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_dota_player, container, false);
@@ -44,8 +45,8 @@ public class FragmentPlayer extends Fragment {
                 for(DataSnapshot dataSnapshot1: dataSnapshot.getChildren()){
                     Player p = dataSnapshot1.getValue(Player.class);
                     list.add(p);
-
                 }
+
                 adapter = new RecycleAdapter(getActivity(),list);
                 recyclerView.setAdapter(adapter);
             }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lelepedia">
+    package="com.fidd.lelepedia">
 
     <application
         android:allowBackup="true"
@@ -11,29 +11,29 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".Dota.MenuDota"/>
-        <activity android:name=".Dota.Navi"/>
-        <activity android:name=".Dota.Nigma"/>
-        <activity android:name=".Dota.Boom"/>
-        <activity android:name=".Dota.VP"/>
-        <activity android:name=".Dota.OG"/>
-        <activity android:name=".Dota.Secret"/>
-        <activity android:name=".R6.MenuR6"/>
-        <activity android:name=".R6.G2"/>
-        <activity android:name=".R6.BDS"/>
-        <activity android:name=".R6.Secret"/>
-        <activity android:name=".R6.TSM"/>
-        <activity android:name=".R6.Faze"/>
-        <activity android:name=".R6.Empire"/>
-        <activity android:name=".Valorant.MenuValorant"/>
-        <activity android:name=".Valorant.T1"/>
-        <activity android:name=".Valorant.TSM"/>
-        <activity android:name=".Valorant.Thieves"/>
-        <activity android:name=".Valorant.Giants"/>
-        <activity android:name=".Valorant.G2"/>
-        <activity android:name=".Valorant.C9"/>
-        <activity android:name=".Home" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.fidd.lelepedia.Dota.MenuDota"/>
+        <activity android:name="com.fidd.lelepedia.Dota.Navi"/>
+        <activity android:name="com.fidd.lelepedia.Dota.Nigma"/>
+        <activity android:name="com.fidd.lelepedia.Dota.Boom"/>
+        <activity android:name="com.fidd.lelepedia.Dota.VP"/>
+        <activity android:name="com.fidd.lelepedia.Dota.OG"/>
+        <activity android:name="com.fidd.lelepedia.Dota.Secret"/>
+        <activity android:name="com.fidd.lelepedia.R6.MenuR6"/>
+        <activity android:name="com.fidd.lelepedia.R6.G2"/>
+        <activity android:name="com.fidd.lelepedia.R6.BDS"/>
+        <activity android:name="com.fidd.lelepedia.R6.Secret"/>
+        <activity android:name="com.fidd.lelepedia.R6.TSM"/>
+        <activity android:name="com.fidd.lelepedia.R6.Faze"/>
+        <activity android:name="com.fidd.lelepedia.R6.Empire"/>
+        <activity android:name="com.fidd.lelepedia.Valorant.MenuValorant"/>
+        <activity android:name="com.fidd.lelepedia.Valorant.T1"/>
+        <activity android:name="com.fidd.lelepedia.Valorant.TSM"/>
+        <activity android:name="com.fidd.lelepedia.Valorant.Thieves"/>
+        <activity android:name="com.fidd.lelepedia.Valorant.Giants"/>
+        <activity android:name="com.fidd.lelepedia.Valorant.G2"/>
+        <activity android:name="com.fidd.lelepedia.Valorant.C9"/>
+        <activity android:name="com.fidd.lelepedia.Home" />
+        <activity android:name="com.fidd.lelepedia.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
